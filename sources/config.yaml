@@ -1,0 +1,13 @@
+   sources:
+
+      - InstrumentSans-Upright.glyphs
+      - InstrumentSans-Italic.glyphs
+      - InstrumentSans.glyphs
+
+    axisOrder:
+
+      - wdth
+      - ital
+      - wght
+
+    familyName: Instrument Sans
