@@ -28,6 +28,11 @@ value = 1;
 {
 name = "Variable Font Origin";
 value = m002;
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 date = "2022-07-30 15:19:26 +0000";
@@ -79964,81 +79969,6 @@ width = 310;
 instances = (
 {
 axesValues = (
-75,
-400
-);
-instanceInterpolations = {
-m01 = 1;
-};
-name = "Condensed Regular";
-widthClass = 3;
-},
-{
-axesValues = (
-75,
-500
-);
-instanceInterpolations = {
-m003 = 0.33333;
-m01 = 0.66667;
-};
-name = "Condensed Medium";
-widthClass = 3;
-},
-{
-axesValues = (
-75,
-700
-);
-instanceInterpolations = {
-m003 = 1;
-};
-name = "Condensed Bold";
-weightClass = 700;
-widthClass = 3;
-},
-{
-axesValues = (
-88,
-400
-);
-instanceInterpolations = {
-m002 = 0.52;
-m01 = 0.48;
-};
-name = "Semi Condensed Regular";
-widthClass = 4;
-},
-{
-axesValues = (
-88,
-500
-);
-instanceInterpolations = {
-m002 = 0.34667;
-m003 = 0.16;
-m004 = 0.17333;
-m01 = 0.32;
-};
-name = "Semi Condensed Medium";
-weightClass = 500;
-widthClass = 4;
-},
-{
-axesValues = (
-88,
-700
-);
-instanceInterpolations = {
-m003 = 0.48;
-m004 = 0.52;
-};
-name = "Semi Condensed Bold";
-weightClass = 700;
-widthClass = 4;
-},
-{
-axesValues = (
 100,
 400
 );
@@ -80062,13 +79992,222 @@ weightClass = 500;
 {
 axesValues = (
 100,
+600
+);
+instanceInterpolations = {
+m002 = 0.33333;
+m004 = 0.66667;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+100,
 700
 );
 instanceInterpolations = {
 m004 = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = 700;
+},
+{
+axesValues = (
+75,
+400
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
+widthClass = 3;
+},
+{
+axesValues = (
+75,
+500
+);
+instanceInterpolations = {
+m003 = 0.33333;
+m01 = 0.66667;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 3;
+},
+{
+axesValues = (
+75,
+600
+);
+instanceInterpolations = {
+m003 = 0.66667;
+m01 = 0.33333;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 3;
+},
+{
+axesValues = (
+75,
+700
+);
+instanceInterpolations = {
+m003 = 1;
+};
+isBold = 1;
+linkStyle = "Instrument Sans Condensed Regular";
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 3;
+},
+{
+axesValues = (
+88,
+400
+);
+instanceInterpolations = {
+m002 = 0.52;
+m01 = 0.48;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+500
+);
+instanceInterpolations = {
+m002 = 0.34667;
+m003 = 0.16;
+m004 = 0.17333;
+m01 = 0.32;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+600
+);
+instanceInterpolations = {
+m002 = 0.17333;
+m003 = 0.32;
+m004 = 0.34667;
+m01 = 0.16;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+700
+);
+instanceInterpolations = {
+m003 = 0.48;
+m004 = 0.52;
+};
+isBold = 1;
+linkStyle = "Instrument Sans SemiCondensed Regular";
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 4;
 }
 );
 kerningLTR = {

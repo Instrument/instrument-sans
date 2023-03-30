@@ -27,7 +27,14 @@ value = 1;
 },
 {
 name = "Variable Font Origin";
-value = m002;
+value = m007;
+},
+{
+name = fsType;
+value = (
+3,
+8
+);
 }
 );
 date = "2022-07-30 15:19:26 +0000";
@@ -547,7 +554,7 @@ over = -16;
 pos = 13;
 }
 );
-name = "Condensed Regular";
+name = "Condensed Italic";
 stemValues = (
 58,
 64,
@@ -675,7 +682,7 @@ over = -16;
 pos = 13;
 }
 );
-name = "Condensed Bold";
+name = "Condensed Bold Italic";
 stemValues = (
 108,
 112,
@@ -809,7 +816,7 @@ over = -16;
 pos = 13;
 }
 );
-name = Regular;
+name = Italic;
 stemValues = (
 68,
 74,
@@ -942,7 +949,7 @@ over = -16;
 pos = 13;
 }
 );
-name = Bold;
+name = "Bold Italic";
 stemValues = (
 114,
 122,
@@ -83973,13 +83980,71 @@ width = 310;
 instances = (
 {
 axesValues = (
+100,
+400
+);
+instanceInterpolations = {
+m007 = 1;
+};
+name = Italic;
+},
+{
+axesValues = (
+100,
+500
+);
+instanceInterpolations = {
+m007 = 0.66667;
+m008 = 0.33333;
+};
+name = "Medium Italic";
+weightClass = 500;
+},
+{
+axesValues = (
+100,
+600
+);
+instanceInterpolations = {
+m007 = 0.33333;
+m008 = 0.66667;
+};
+name = "SemiBold Italic";
+weightClass = 600;
+},
+{
+axesValues = (
+100,
+700
+);
+instanceInterpolations = {
+m008 = 1;
+};
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+weightClass = 700;
+},
+{
+axesValues = (
 75,
 400
 );
 instanceInterpolations = {
 m005 = 1;
 };
-name = "Condensed Regular";
+name = Italic;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
 widthClass = 3;
 },
 {
@@ -83991,8 +84056,43 @@ instanceInterpolations = {
 m005 = 0.66667;
 m006 = 0.33333;
 };
-name = "Condensed Medium";
+name = "Medium Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
 weightClass = 500;
+widthClass = 3;
+},
+{
+axesValues = (
+75,
+600
+);
+instanceInterpolations = {
+m005 = 0.33333;
+m006 = 0.66667;
+};
+name = "SemiBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
+weightClass = 600;
 widthClass = 3;
 },
 {
@@ -84003,7 +84103,21 @@ axesValues = (
 instanceInterpolations = {
 m006 = 1;
 };
-name = "Condensed Bold";
+isBold = 1;
+isItalic = 1;
+linkStyle = "Instrument Sans Condensed";
+name = "Bold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans Condensed";
+}
+);
+}
+);
 weightClass = 700;
 widthClass = 3;
 },
@@ -84016,7 +84130,18 @@ instanceInterpolations = {
 m005 = 0.48;
 m007 = 0.52;
 };
-name = "Semi Condensed Regular";
+name = Italic;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
 widthClass = 4;
 },
 {
@@ -84030,8 +84155,45 @@ m006 = 0.16;
 m007 = 0.34667;
 m008 = 0.17333;
 };
-name = "Semi Condensed Medium";
+name = "Medium Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
 weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+600
+);
+instanceInterpolations = {
+m005 = 0.16;
+m006 = 0.32;
+m007 = 0.17333;
+m008 = 0.34667;
+};
+name = "SemiBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
+weightClass = 600;
 widthClass = 4;
 },
 {
@@ -84043,44 +84205,23 @@ instanceInterpolations = {
 m006 = 0.48;
 m008 = 0.52;
 };
-name = "Semi Condensed Bold";
+isBold = 1;
+isItalic = 1;
+linkStyle = "Instrument Sans SemiCondensed";
+name = "Bold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Instrument Sans SemiCondensed";
+}
+);
+}
+);
 weightClass = 700;
 widthClass = 4;
-},
-{
-axesValues = (
-75,
-400
-);
-instanceInterpolations = {
-m005 = 1;
-};
-name = Regular;
-},
-{
-axesValues = (
-88,
-500
-);
-instanceInterpolations = {
-m005 = 0.32;
-m006 = 0.16;
-m007 = 0.34667;
-m008 = 0.17333;
-};
-name = Medium;
-weightClass = 500;
-},
-{
-axesValues = (
-100,
-700
-);
-instanceInterpolations = {
-m008 = 1;
-};
-name = Bold;
-weightClass = 700;
 }
 );
 kerningLTR = {
