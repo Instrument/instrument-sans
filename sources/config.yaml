@@ -5,7 +5,7 @@
       - wdth
       - wght
       - ital
-    familyName: "Instrument Sans"
+    familyName: Instrument Sans
     stat:
       InstrumentSans[wdth,wght].ttf:
       - name: Width
@@ -13,6 +13,8 @@
         values:
         - name: Condensed
           value: 75
+        - name: SemiCondensed
+          value: 87.5
         - name: Normal
           value: 100
           flags: 2
@@ -36,12 +38,14 @@
           value: 0
           linkedValue: 1
           flags: 2
-      InstrumentSans-Italic[wdth,wght].tff:
+      InstrumentSans-Italic[wdth,wght].ttf:
       - name: Width
         tag: wdth
         values:
         - name: Condensed
           value: 75
+        - name: SemiCondensed
+          value: 87.5
         - name: Normal
           value: 100
           flags: 2
