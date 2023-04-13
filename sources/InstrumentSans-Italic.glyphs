@@ -1,6 +1,9 @@
 {
-.appVersion = "3151";
+.appVersion = "3184";
 .formatVersion = 3;
+DisplayStrings = (
+"/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/periodcentered.loclCAT.case/periodcentered.loclCAT.case/parenright.case/parenright.case/parenright.case/parenright.case/parenright.case/parenright.case/parenright.case/braceright.case/braceright.case/braceright.case/braceright.case/braceright.case/braceright.case/bracketright.case/bracketright.case/bracketright.case/bracketright.case"
+);
 axes = (
 {
 name = Width;
@@ -34,7 +37,7 @@ name = "Axis Mappings";
 value = {
 wdth = {
 75 = 75;
-87.5 = 88;
+88 = 87.5;
 100 = 100;
 };
 wght = {
@@ -15847,7 +15850,7 @@ unicode = 7922;
 glyphname = Z;
 kernLeft = KO_Z;
 kernRight = KO_Z;
-lastChange = "2023-02-07 19:19:02 +0000";
+lastChange = "2023-03-03 20:55:12 +0000";
 layers = (
 {
 anchors = (
@@ -19157,7 +19160,7 @@ color = 8;
 glyphname = J.ss08;
 kernLeft = KO_J.ss09;
 kernRight = KO_U;
-lastChange = "2023-02-07 19:24:39 +0000";
+lastChange = "2023-02-04 15:39:26 +0000";
 layers = (
 {
 background = {
@@ -58290,12 +58293,13 @@ R = "spaced-off";
 },
 {
 glyphname = bullet.case;
-lastChange = "2023-02-21 19:50:05 +0000";
+lastChange = "2023-04-12 08:58:21 +0000";
 layers = (
 {
 layerId = m005;
 shapes = (
 {
+alignment = -1;
 pos = (35,180);
 ref = period;
 scale = (4.5,4.5);
@@ -58307,6 +58311,7 @@ width = 532;
 layerId = m006;
 shapes = (
 {
+alignment = -1;
 pos = (65,110);
 ref = period;
 scale = (3.4,3.4);
@@ -58318,6 +58323,7 @@ width = 620;
 layerId = m007;
 shapes = (
 {
+alignment = -1;
 pos = (-51,109);
 ref = period;
 scale = (5.5,5.5);
@@ -58329,6 +58335,7 @@ width = 720;
 layerId = m008;
 shapes = (
 {
+alignment = -1;
 pos = (15,74);
 ref = period;
 scale = (3.6,3.6);
@@ -58348,7 +58355,7 @@ R = NoKerning;
 },
 {
 glyphname = periodcentered.loclCAT;
-lastChange = "2023-02-02 18:22:21 +0000";
+lastChange = "2023-02-23 20:21:06 +0000";
 layers = (
 {
 layerId = m005;
@@ -60170,11 +60177,11 @@ width = 158;
 layerId = m007;
 shapes = (
 {
-pos = (5,18);
+pos = (4,18);
 ref = periodcentered;
 }
 );
-width = 104;
+width = 103;
 },
 {
 layerId = m008;
@@ -61976,40 +61983,40 @@ layerId = m005;
 shapes = (
 {
 angle = 180;
-pos = (385,720);
+pos = (384,720);
 ref = parenleft.case;
 }
 );
-width = 337;
+width = 336;
 },
 {
 layerId = m006;
 shapes = (
 {
 angle = 180;
-pos = (425,720);
+pos = (424,720);
 ref = parenleft.case;
 }
 );
-width = 377;
+width = 376;
 },
 {
 layerId = m007;
 shapes = (
 {
 angle = 180;
-pos = (455,720);
+pos = (454,720);
 ref = parenleft.case;
 }
 );
-width = 407;
+width = 406;
 },
 {
 layerId = m008;
 shapes = (
 {
 angle = 180;
-pos = (505,720);
+pos = (504,720);
 ref = parenleft.case;
 }
 );
@@ -62415,29 +62422,29 @@ layerId = m005;
 shapes = (
 {
 angle = 180;
-pos = (385,720);
+pos = (384,720);
 ref = braceleft.case;
 }
 );
-width = 337;
+width = 336;
 },
 {
 layerId = m006;
 shapes = (
 {
 angle = 180;
-pos = (425,720);
+pos = (424,720);
 ref = braceleft.case;
 }
 );
-width = 377;
+width = 376;
 },
 {
 layerId = m007;
 shapes = (
 {
 angle = 180;
-pos = (455,720);
+pos = (454,720);
 ref = braceleft.case;
 }
 );
@@ -62448,7 +62455,7 @@ layerId = m008;
 shapes = (
 {
 angle = 180;
-pos = (506,720);
+pos = (505,720);
 ref = braceleft.case;
 }
 );
@@ -62602,7 +62609,7 @@ layerId = m005;
 shapes = (
 {
 angle = 180;
-pos = (386,720);
+pos = (385,720);
 ref = bracketleft.case;
 }
 );
@@ -62613,7 +62620,7 @@ layerId = m006;
 shapes = (
 {
 angle = 180;
-pos = (426,720);
+pos = (425,720);
 ref = bracketleft.case;
 }
 );
@@ -62624,7 +62631,7 @@ layerId = m007;
 shapes = (
 {
 angle = 180;
-pos = (456,720);
+pos = (455,720);
 ref = bracketleft.case;
 }
 );
@@ -62635,7 +62642,7 @@ layerId = m008;
 shapes = (
 {
 angle = 180;
-pos = (506,720);
+pos = (505,720);
 ref = bracketleft.case;
 }
 );
@@ -116073,7 +116080,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-serif)";
+value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)";
 }
 );
 },

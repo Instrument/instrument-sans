@@ -1,6 +1,9 @@
 {
-.appVersion = "3151";
+.appVersion = "3184";
 .formatVersion = 3;
+DisplayStrings = (
+"/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case/bullet.case"
+);
 axes = (
 {
 name = Width;
@@ -34,7 +37,7 @@ name = "Axis Mappings";
 value = {
 wdth = {
 75 = 75;
-87.5 = 88;
+88 = 87.5;
 100 = 100;
 };
 wght = {
@@ -28859,7 +28862,7 @@ L = NoKerning;
 glyphname = nacute;
 kernLeft = KO_idotless;
 kernRight = KO_n;
-lastChange = "2023-03-04 15:41:46 +0000";
+lastChange = "2023-02-08 19:22:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -38761,7 +38764,7 @@ color = 0;
 glyphname = odieresis.ss01;
 kernLeft = KO_odieresis;
 kernRight = KO_o;
-lastChange = "2023-03-04 15:41:55 +0000";
+lastChange = "2023-03-04 15:43:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -56902,12 +56905,13 @@ R = "spaced-off";
 },
 {
 glyphname = bullet.case;
-lastChange = "2023-02-21 19:50:05 +0000";
+lastChange = "2023-04-12 08:58:37 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (-214,180);
 ref = period;
 scale = (4.5,4.5);
@@ -56919,6 +56923,7 @@ width = 531;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (-342,109);
 ref = period;
 scale = (5.5,5.5);
@@ -56930,6 +56935,7 @@ width = 718;
 layerId = m003;
 shapes = (
 {
+alignment = -1;
 pos = (-101,110);
 ref = period;
 scale = (3.4,3.4);
@@ -56941,6 +56947,7 @@ width = 621;
 layerId = m004;
 shapes = (
 {
+alignment = -1;
 pos = (-156,74);
 ref = period;
 scale = (3.6,3.6);
@@ -112063,7 +112070,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-serif)";
+value = "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)";
 }
 );
 },
