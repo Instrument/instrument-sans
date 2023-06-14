@@ -10,13 +10,13 @@ Instrument Sans is a variable sans-serif which balances an abundance of precisio
 
 Featuring 12 unique stylistic sets, commonly-used characters can be replaced with alternate glyphs in a variety of combinations to tailor the appearance and legibility of messaging. This flexibility allows for a wide range of expressive styles, making it easy to mold it to perfectly suit whatever style of expression is needed.
 
-## Variable Axes\*\*
+## Variable Axes
 
-| Axis Name       | Range   |
-| --------------- | ------- |
-| Width (`wdth`)  | 75-100  |
-| Weight (`wdth`) | 400-700 |
-| Italic (`ital`) | 0-100   |
+| Axis Name | Desciption   | Range   |
+| --------- | ------------ | ------- |
+| `wdth`    | Width        | 75-100  |
+| `wdth`    | Weight       | 400-700 |
+| `ital`    | Italic Slant | 0-100   |
 
 ## Opentype Features
 
